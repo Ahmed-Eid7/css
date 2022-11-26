@@ -1,0 +1,65 @@
+/* Intro to CSS */
+
+/* p {
+  font-size: 64px;
+  color: purple;
+} */
+
+/* ================================================================= */
+/* CSS Selector */
+/* =================================================================*/
+
+/* Choosee everything in the page */
+* {
+  /* font-family: monospace; */
+  /* border: 1px solid #ccc; */
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  /* border: 3px solid black; not inheritance */
+}
+
+main {
+  font-family: monospace;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2 {
+  color: blue;
+}
+
+/* Page read from top to bottom */
+p {
+  /* important force to apply this style and do not use this */
+  color: purple !important;
+}
+
+p {
+  color: red;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+/* has the power than the element name */
+.gray {
+  color: gray;
+}
+
+/* has the power than the element name and class */
+#second {
+  font-style: italic;
+}

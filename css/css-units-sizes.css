@@ -1,0 +1,48 @@
+/* html {
+  font-size: 16px;
+} */
+
+/* p {
+  font-size: 32px;
+} */
+
+/* header {
+  width: 80%;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  width: 100%;
+} */
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  border: 2px dashed red;
+  /* relevant to the parent */
+  width: 50%;
+  font-size: 3rem;
+  /* use em for box model */
+  padding: 0.5em;
+}
+
+main {
+  /* width: 50vw;
+  background-color: skyblue; */
+  font-size: 2rem;
+}
+
+p {
+  /* rem => root element */
+  /* not relevant to the parent but the root element */
+  font-size: 2rem;
+  /* em relevant to the parent */
+  width: 40ch;
+}
